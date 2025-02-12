@@ -20,11 +20,6 @@ This repository contains several CSV files used in the analysis. Below is a desc
 ### **2. User Guesses (`data.csv`)**
 - Contains **participant responses** from the online experiment.
 - Includes 749,828 user entries with details such as:
-  - **Filenames** of the images participants viewed.
-  - **User guesses** (real or AI-generated).
-  - **Correct/incorrect guesses** based on ground truth.
-  - **Time constraints** assigned to participants (1s, 5s, 10s, 20s, or unlimited).
-  - Other metadata related to the experiment.
 
 ### **3. Artifact Annotations (`artifact_annotations.csv`)**
 - Contains images and their associated **artifact annotations**.
@@ -32,15 +27,7 @@ This repository contains several CSV files used in the analysis. Below is a desc
 
 ### **4. Human Curation (`human_curation.csv`)**
 - Evaluates the **effect of human curation** on image accuracy.
-- Contains:
-  - **Filename**
-  - **Source** (Midjourney, Firefly, Stable Diffusion, etc.)
-  - **Original accuracy** before any permutation.
-  - **Number of permuted images** generated from the original.
-  - **Mean accuracy across permuted images**.
-  - **Min/Max accuracy of permuted images**.
-  - **Number of observations** for permuted images.
-  - **Estimated value added by human curation**.
+
 
 ### **5. Classified Comments (`classified_comments_chunked.csv`)**
 - Contains **participant comments** collected from the online experiment.
